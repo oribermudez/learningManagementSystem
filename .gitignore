@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LearningManagementSystem/obj/Debug/net6.0-android/android/bin/mono.android.jar
+/LearningManagementSystem/obj/Debug/net6.0-android/android/src
+/LearningManagementSystem/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/custom-linker-options.txt
+/LearningManagementSystem/obj/Debug/net6.0-android/android
