@@ -4,3 +4,4 @@
 
 /LearningManagementSystem/obj/Debug/net6.0-android/android/bin/mono.android.jar
 /LearningManagementSystem/obj/Debug/net6.0-android/android/src
+/LearningManagementSystem/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/custom-linker-options.txt
