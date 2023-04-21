@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LearningManagementSystem/obj/Debug/net6.0-android/android/bin/mono.android.jar
