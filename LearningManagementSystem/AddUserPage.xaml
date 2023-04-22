@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningManagementSystem.AddUserPage">
+    <ScrollView>
+        <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
+              ColumnDefinitions="120, 300, 300"
+              Padding="2"
+              RowSpacing="2"
+              ColumnSpacing="2">
+
+            <Label x:Name="IdLabel"
+                   Grid.Row="0" 
+                   Grid.Column="0"
+                   Text="Student ID: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="IdEntry" 
+                   Grid.Row="0" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="StudentId" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Label x:Name="FirstNameLabel"
+                   Grid.Row="1" 
+                   Grid.Column="0"
+                   Text="First Name: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="FirstNameEntry" 
+                   Grid.Row="1" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="FirstName" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Label x:Name="LastNameLabel"
+                   Grid.Row="2" 
+                   Grid.Column="0"
+                   Text="Last Name: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="LastNameEntry" 
+                   Grid.Row="2" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="LastName" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Label x:Name="ProgramLabel"
+                   Grid.Row="3" 
+                   Grid.Column="0"
+                   Text="Program: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="ProgramEntry" 
+                   Grid.Row="3" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="Program" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Label x:Name="PhoneLabel"
+                   Grid.Row="4" 
+                   Grid.Column="0"
+                   Text="Phone: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="PhoneEntry" 
+                   Grid.Row="4" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="Phone" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Label x:Name="EmailLabel"
+                   Grid.Row="5" 
+                   Grid.Column="0"
+                   Text="Email: " 
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="EmailEntry" 
+                   Grid.Row="5" 
+                   Grid.Column="1" 
+                   WidthRequest="250"
+                   Placeholder="Email" 
+                   BackgroundColor="White" 
+                   TextColor="Black" />
+
+            <Button x:Name="SubmitButton" 
+                    Grid.Row="6" 
+                    Grid.Column="1"
+                    Text="Submit" 
+                    WidthRequest="250" 
+                    Clicked="SubmitButton_Clicked" />
+        </Grid>
+    </ScrollView>
+</ContentPage>
