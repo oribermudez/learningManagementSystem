@@ -195,6 +195,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2136,6 +2149,19 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -4083,6 +4109,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -6024,6 +6063,19 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -7971,6 +8023,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -9912,6 +9977,19 @@
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -11859,6 +11937,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -13803,6 +13894,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15725,6 +15829,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15938,6 +16055,19 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -16157,6 +16287,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16370,6 +16513,19 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -16589,6 +16745,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16802,6 +16971,19 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -17021,6 +17203,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17234,6 +17429,19 @@
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -17453,6 +17661,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17666,6 +17887,19 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -17885,6 +18119,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18098,6 +18345,19 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -18317,6 +18577,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18530,6 +18803,19 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -18749,6 +19035,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -18962,6 +19261,19 @@
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb"
+          }
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -19314,6 +19626,19 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -19625,6 +19950,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -19940,6 +20278,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20251,6 +20602,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -20566,6 +20930,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -20879,6 +21256,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -21190,6 +21580,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -21509,6 +21912,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -22623,6 +23039,33 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "MySqlConnector/2.2.5": {
+      "sha512": "6sinY78RvryhHwpup3awdjYO7d5hhWahb5p/1VDODJhSxJggV/sBbYuKK5IQF9TuzXABiddqUbmRfM884tqA3Q==",
+      "type": "package",
+      "path": "mysqlconnector/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net7.0/MySqlConnector.dll",
+        "lib/net7.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.2.5.nupkg.sha512",
+        "mysqlconnector.nuspec"
       ]
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -24550,43 +24993,47 @@
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
       "Microsoft.Maui.Dependencies >= 6.0.552",
-      "Microsoft.Maui.Extensions >= 6.0.552"
+      "Microsoft.Maui.Extensions >= 6.0.552",
+      "MySqlConnector >= 2.2.5"
     ],
     "net6.0-ios16.1": [
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
+      "MySqlConnector >= 2.2.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst16.1": [
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
+      "MySqlConnector >= 2.2.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
-      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194"
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
+      "MySqlConnector >= 2.2.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josel\\.nuget\\packages\\": {},
+    "C:\\Users\\matty\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josel\\OneDrive\\Documentos\\OOP2 Winter2023\\learningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\matty\\OneDrive\\School\\OOP\\Github Code\\LearningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
       "projectName": "LearningManagementSystem",
-      "projectPath": "C:\\Users\\josel\\OneDrive\\Documentos\\OOP2 Winter2023\\learningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josel\\OneDrive\\Documentos\\OOP2 Winter2023\\learningManagementSystem\\LearningManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\matty\\OneDrive\\School\\OOP\\Github Code\\LearningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\matty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matty\\OneDrive\\School\\OOP\\Github Code\\LearningManagementSystem\\LearningManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matty\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24638,6 +25085,10 @@
             "target": "Package",
             "version": "[6.0.552, )",
             "autoReferenced": true
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.5, )"
           }
         },
         "imports": [
@@ -24654,35 +25105,35 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.31",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-arm",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-arm64",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-x64",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-x86",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.android",
@@ -24726,7 +25177,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       },
       "net6.0-ios16.1": {
         "targetAlias": "net6.0-ios",
@@ -24740,6 +25191,10 @@
             "target": "Package",
             "version": "[6.0.552, )",
             "autoReferenced": true
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.5, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -24761,11 +25216,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref",
-            "version": "[16.2.3, 16.2.3]"
+            "version": "[16.2.34, 16.2.34]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-            "version": "[16.2.3, 16.2.3]"
+            "version": "[16.2.34, 16.2.34]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.ios",
@@ -24809,7 +25264,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst16.1": {
         "targetAlias": "net6.0-maccatalyst",
@@ -24823,6 +25278,10 @@
             "target": "Package",
             "version": "[6.0.552, )",
             "autoReferenced": true
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.5, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -24845,11 +25304,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref",
-            "version": "[16.2.3, 16.2.3]"
+            "version": "[16.2.34, 16.2.34]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-            "version": "[16.2.3, 16.2.3]"
+            "version": "[16.2.34, 16.2.34]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
@@ -24893,7 +25352,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       },
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
@@ -24913,6 +25372,10 @@
             "target": "Package",
             "version": "[10.0.22000.194, )",
             "autoReferenced": true
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.5, )"
           }
         },
         "imports": [
@@ -24929,7 +25392,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.win",
@@ -24957,7 +25420,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -24965,7 +25428,7 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.16, 6.0.16]"
           }
         ],
         "frameworkReferences": {
@@ -24985,7 +25448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearningManagementSystem
-build_property.ProjectDir = C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\
+build_property.ProjectDir = C:\Users\matty\OneDrive\School\OOP\Github Code\LearningManagementSystem\LearningManagementSystem\
 
-[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/App.xaml]
+[C:/Users/matty/OneDrive/School/OOP/Github Code/LearningManagementSystem/LearningManagementSystem/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/AppShell.xaml]
+[C:/Users/matty/OneDrive/School/OOP/Github Code/LearningManagementSystem/LearningManagementSystem/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/MainPage.xaml]
+[C:/Users/matty/OneDrive/School/OOP/Github Code/LearningManagementSystem/LearningManagementSystem/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Resources/Styles/Colors.xaml]
+[C:/Users/matty/OneDrive/School/OOP/Github Code/LearningManagementSystem/LearningManagementSystem/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Resources/Styles/Styles.xaml]
+[C:/Users/matty/OneDrive/School/OOP/Github Code/LearningManagementSystem/LearningManagementSystem/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
