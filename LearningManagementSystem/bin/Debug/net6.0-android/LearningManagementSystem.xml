@@ -4,5 +4,20 @@
         <name>LearningManagementSystem</name>
     </assembly>
     <members>
+        <member name="M:LearningManagementSystem.DBConnect.Initialize">
+            <summary>
+            Initializes DB values
+            </summary>
+        </member>
+        <member name="M:LearningManagementSystem.DBConnect.OpenConnection">
+            <summary>
+            Open the connection to the database
+            </summary>
+        </member>
+        <member name="M:LearningManagementSystem.DBConnect.CloseConnection">
+            <summary>
+            Closes the connection to the database
+            </summary>
+        </member>
     </members>
 </doc>

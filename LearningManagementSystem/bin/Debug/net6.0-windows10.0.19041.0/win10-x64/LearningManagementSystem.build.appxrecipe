@@ -790,6 +790,12 @@
     <AppxPackagedFile Include="C:\Users\josel\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\josel\.nuget\packages\mysqlconnector\2.2.5\lib\net6.0\MySqlConnector.dll">
+      <PackagePath>MySqlConnector.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\josel\.nuget\packages\nunit\3.13.3\lib\netstandard2.0\nunit.framework.dll">
+      <PackagePath>nunit.framework.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\josel\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>

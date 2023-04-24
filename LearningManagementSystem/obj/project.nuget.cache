@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6suEXXokXEcxXrSH3tryAbbYlNYsn1mKPbxJEDRaI2luDxOhMwYaS5ydQtpQX2f/SVdlvB/wtEgl+ZU3CLNDKw==",
+  "dgSpecHash": "36vcKlPv6nAAmLOphuZsqMsa8esdz0cyRQ6/qfTKQoRI2PomqKwKDsy9hLzYhPCd+8fE7KGL+cn7IXOMC7ApBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\josel\\OneDrive\\Documentos\\OOP2 Winter2023\\learningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
   "expectedPackageFiles": [
@@ -18,8 +18,12 @@
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.maui.extensions\\6.0.552\\microsoft.maui.extensions.6.0.552.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.maui.graphics\\6.0.501\\microsoft.maui.graphics.6.0.501.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
+    "C:\\Users\\josel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.5\\microsoft.windowsappsdk.1.1.5.nupkg.sha512",
+    "C:\\Users\\josel\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\josel\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\josel\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",

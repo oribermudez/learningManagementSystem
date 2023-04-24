@@ -1000,3 +1000,5 @@ C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\Lear
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-android\android\assets\MySqlConnector.dll
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-android\android\assets\nunit.framework.dll

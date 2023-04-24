@@ -253,3 +253,5 @@ C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\Lear
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\LearningManagementSystem.pdb
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\LearningManagementSystem.genruntimeconfig.cache
 C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\LearningManagementSystem.dll
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MySqlConnector.dll
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\nunit.framework.dll
