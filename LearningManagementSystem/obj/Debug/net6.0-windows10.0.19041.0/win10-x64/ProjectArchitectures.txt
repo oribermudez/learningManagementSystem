@@ -1,1 +1,1 @@
-C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\LearningManagementSystem.csproj;x64
+C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagementSystem\LearningManagementSystem.csproj;x64

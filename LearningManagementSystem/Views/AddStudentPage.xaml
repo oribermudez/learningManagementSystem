@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:viewmodel="clr-namespace:LearningManagementSystem.ViewModels"
+             xmlns:model="clr-namespace:LearningManagementSystem.Models"
+             xmlns:template="clr-namespace:LearningManagementSystem.Views.Templates"
+             x:Class="LearningManagementSystem.Views.AddStudentPage"
+             Title="Add Student">
+    <VerticalStackLayout x:DataType="viewmodel:StudentViewModel" Margin="40">
+        <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
+              ColumnDefinitions="120, 300, 300"
+              Padding="2"
+              RowSpacing="2"
+              ColumnSpacing="2">
+
+            <Label x:Name="IdLabel"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Student ID: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="IdEntry"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="StudentId"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Id}"/>
+
+            <Label x:Name="FirstNameLabel"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Text="First Name: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="FirstNameEntry"
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="FirstName"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding FirstName}"/>
+
+            <Label x:Name="LastNameLabel"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Last Name: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="LastNameEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="LastName"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding LastName}"/>
+
+            <Label x:Name="ProgramLabel"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Text="Program: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="ProgramEntry"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Program"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Program}"/>
+
+            <Label x:Name="PhoneLabel"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Text="Phone: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="PhoneEntry"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Phone"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Phone}"/>
+
+            <Label x:Name="EmailLabel"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Text="Email: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="EmailEntry"
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Email"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Email}"/>
+
+            <Button x:Name="SubmitButton"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Text="Submit"
+                    WidthRequest="250"
+                    Command="{Binding AddStudentCommand}"/>
+        </Grid>
+        <CollectionView ItemsSource="{Binding Errors}" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding .}"></Label>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

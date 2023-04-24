@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearningManagementSystem
+namespace LearningManagementSystem.Interfaces
 {
     internal interface ICourse
     {
-
         //methods:
         //public Course CreateCourse(int id, string name, string instructor, DateTime startDate, DateTime endDate);
 

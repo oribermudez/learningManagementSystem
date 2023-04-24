@@ -1,17 +1,8 @@
-﻿using MySqlConnector;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-// view courses (list view of all coureses who belong to X program
-// Update course select a course from the list. Populate text boxes with current values
-// can change the values in the box then updateButton to save to db
-
-namespace LearningManagementSystem
+namespace LearningManagementSystem.Database
 {
-    internal class DBConnect
+    public partial class DBConnect
     {
         private MySqlConnection connection;
         private string server;
@@ -33,7 +24,7 @@ namespace LearningManagementSystem
             server = "localhost";
             database = "studentmanagementsystem";
             uid = "root";
-            password = "password";
+            password = "1234";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -93,7 +84,7 @@ namespace LearningManagementSystem
             string query = $"INSERT INTO students VALUES ({newStudent.Id}, '{newStudent.FirstName}', '{newStudent.LastName}', '{newStudent.Program}', '{newStudent.Phone}', '{newStudent.Email}')";
 
             //open connection
-            if (this.OpenConnection() == true)
+            if (OpenConnection() == true)
             {
                 //create command and assign the query and connection from the constructor
                 MySqlCommand cmd = new MySqlCommand(query, connection);
@@ -102,7 +93,7 @@ namespace LearningManagementSystem
                 cmd.ExecuteNonQuery();
 
                 //close connection
-                this.CloseConnection();
+                CloseConnection();
             }
         }
 
@@ -114,7 +105,7 @@ namespace LearningManagementSystem
             string query = $"UPDATE courses SET courseName='{courseName}', instructor='{instructor}', startDate='{startDate}', endDate='{endDate}' WHERE courseId='{courseId}'";
 
             //Open connection
-            if (this.OpenConnection() == true)
+            if (OpenConnection() == true)
             {
                 //create mysql command
                 MySqlCommand cmd = new MySqlCommand();
@@ -127,59 +118,63 @@ namespace LearningManagementSystem
                 cmd.ExecuteNonQuery();
 
                 //close connection
-                this.CloseConnection();
+                CloseConnection();
             }
         }
 
         /// <summary>
         /// NOT YET IMPLEMENTED - Delete values from the database
         /// </summary>
-        public void Delete()
+        public void Delete(int id)
         {
-            string query = "DELETE FROM tableinfo WHERE name='John Smith'";
+            string query = $"DELETE FROM students WHERE id={id}";
 
-            if (this.OpenConnection() == true)
+            if (OpenConnection() == true)
             {
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.ExecuteNonQuery();
-                this.CloseConnection();
+                CloseConnection();
             }
         }
 
         /// <summary>
         /// NOT YET IMPLEMENTED - Display information from the database
         /// </summary>
-        public List<string>[] Select()
+        public List<Student> getStudents()
         {
-            string query = "SELECT * FROM tableinfo";
+            string query = "SELECT * FROM students";
 
             //Create a list to store the result
-            List<string>[] list = new List<string>[3];
-            list[0] = new List<string>();
-            list[1] = new List<string>();
-            list[2] = new List<string>();
+            List<Student> list = new List<Student>();
 
             //Open connection
-            if (this.OpenConnection() == true)
+            if (OpenConnection() == true)
             {
                 //Create Command
                 MySqlCommand cmd = new MySqlCommand(query, connection);
+
                 //Create a data reader and Execute the command
                 MySqlDataReader dataReader = cmd.ExecuteReader();
 
                 //Read the data and store them in the list
                 while (dataReader.Read())
                 {
-                    list[0].Add(dataReader["id"] + "");
-                    list[1].Add(dataReader["name"] + "");
-                    list[2].Add(dataReader["age"] + "");
+                    Student student = new Student();
+                    student.Id = (int)dataReader["studentId"];
+                    student.FirstName = (string)dataReader["firstName"];
+                    student.LastName = (string)dataReader["lastName"];
+                    student.Program = (string)dataReader["program"];
+                    student.Phone = (float)dataReader["phone"];
+                    student.Email = (string)dataReader["email"];
+
+                    list.Add(student);
                 }
 
                 //close Data Reader
                 dataReader.Close();
 
                 //close Connection
-                this.CloseConnection();
+                CloseConnection();
 
                 //return list to be displayed
                 return list;
@@ -191,4 +186,3 @@ namespace LearningManagementSystem
         }
     }
 }
-
