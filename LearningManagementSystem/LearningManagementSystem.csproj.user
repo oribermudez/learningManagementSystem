@@ -9,6 +9,9 @@
     <MauiXaml Update="Views\AddStudentPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\CourseListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\EditStudentPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -16,6 +19,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\StudentListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Templates\CourseItem.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Templates\ListItem.xaml">

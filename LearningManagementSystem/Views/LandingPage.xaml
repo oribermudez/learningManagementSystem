@@ -9,7 +9,6 @@
         <Label Text="Anatomy of the app" FontSize="Large"/>
         <Button Text="Student List" Command="{Binding GoToStudentListCommand}"/>
         <Button Text="Add Student" Command="{Binding GoToAddStudentCommand}"/>
-        <Button Text="View Courses" />
-        <Button Text="Update Course" />
+        <Button Text="View Courses" Command="{Binding GoToCourseListCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

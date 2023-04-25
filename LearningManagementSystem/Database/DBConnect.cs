@@ -206,5 +206,49 @@ namespace LearningManagementSystem.Database
                 return list;
             }
         }
+
+        public List<Course> GetCourses()
+        {
+            string query = "SELECT * FROM courses";
+
+            //Create a list to store the result
+            List<Course> list = new List<Course>();
+
+            //Open connection
+            if (OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    Course course = new Course();
+                    course.Id = (int)dataReader["courseId"];
+                    course.Name = (string)dataReader["courseName"];
+                    course.Instructor = (string)dataReader["instructor"];
+                    course.StartDate = (DateTime)dataReader["startDate"];
+                    course.EndDate = (DateTime)dataReader["endDate"];
+
+                    list.Add(course);
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                CloseConnection();
+
+                //return list to be displayed
+                return list;
+            }
+            else
+            {
+                return list;
+            }
+        }
     }
 }

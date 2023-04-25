@@ -23,5 +23,8 @@
         Title="Edit Student"
         ContentTemplate="{DataTemplate view:EditStudentPage}"
         Route="EditStudentPage" />
-
+    <ShellContent
+        Title="Course List"
+        ContentTemplate="{DataTemplate view:CourseListPage}"
+        Route="CourseListPage" />
 </Shell>

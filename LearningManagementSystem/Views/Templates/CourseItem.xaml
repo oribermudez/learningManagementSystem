@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:LearningManagementSystem.Models"
+             xmlns:viewmodel="clr-namespace:LearningManagementSystem.ViewModels"
+             x:Class="LearningManagementSystem.Views.Templates.CourseItem">
+    <Frame >
+        <HorizontalStackLayout x:DataType="model:Course">
+            <Label Text="{Binding Id}" WidthRequest="50" VerticalOptions="Center"/>
+            <Label Text="{Binding Name}" WidthRequest="130" VerticalOptions="Center"/>
+            <Label Text="{Binding Instructor}" WidthRequest="130" VerticalOptions="Center"/>
+            <Label Text="{Binding StartDate}" WidthRequest="220" VerticalOptions="Center"/>
+            <Label Text="{Binding EndDate}" WidthRequest="220" VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+    </Frame>
+</ContentView>

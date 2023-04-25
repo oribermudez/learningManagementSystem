@@ -22,6 +22,8 @@ public partial class App : Application
         services.AddTransient<StudentListViewModel>();
         services.AddTransient<StudentViewModel>();
         services.AddTransient<LandingViewModel>();
+        services.AddTransient<CourseListViewModel>();
+
 
         // Views
         services.AddSingleton<StudentListPage>();

@@ -19,5 +19,11 @@ namespace LearningManagementSystem.ViewModels
         {
             await Shell.Current.GoToAsync("AddStudentPage");
         }
+
+        [RelayCommand]
+        static async Task GoToCourseList()
+        {
+            await Shell.Current.GoToAsync("CourseListPage");
+        }
     }
 }
