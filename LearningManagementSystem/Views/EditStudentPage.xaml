@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:LearningManagementSystem.ViewModels"
+             xmlns:model="clr-namespace:LearningManagementSystem.Models"
+             x:Class="LearningManagementSystem.Views.EditStudentPage"
+             Title="Edit Student">
+    <VerticalStackLayout x:DataType="viewmodel:StudentListViewModel" Margin="40">
+        <VerticalStackLayout MaximumWidthRequest="600" Margin="20" >
+            <Label Text="{Binding Updated}" TextColor="#512BD4" FontSize="Subtitle" Padding="100,20,20,20"/>
+        </VerticalStackLayout>
+        <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
+              ColumnDefinitions="120, 300, 100"
+              Padding="2"
+              RowSpacing="20"
+              ColumnSpacing="2"
+              HorizontalOptions="Center">
+            <Label x:Name="IdLabel"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Student ID: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="IdEntry"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="StudentId"
+                   TextColor="Black"
+                   BackgroundColor="White"
+                   IsEnabled="False"
+                   Text="{Binding SelectedStudent.Id, Mode=TwoWay}"/>
+            
+            <Label x:Name="FirstLabel"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Text="First Name: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="FirstEntry"
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="FirstName"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding SelectedStudent.FirstName, Mode=TwoWay}"/>
+
+            <Button x:Name="SubmitButton"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Text="Save Changes"
+                    WidthRequest="250"
+                    Margin="20"
+                    Command="{Binding UpdateStudentCommand}"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

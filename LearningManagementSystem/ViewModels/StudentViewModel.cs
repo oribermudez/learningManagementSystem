@@ -60,10 +60,10 @@ namespace LearningManagementSystem.ViewModels
             set => SetProperty(ref program, value, true);
         }
 
-        private double phone;
+        private float phone;
 
         [Required(ErrorMessage = "The phone is required.")]
-        public double Phone
+        public float Phone
         {
             get => phone;
 

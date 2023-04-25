@@ -27,6 +27,7 @@ public partial class App : Application
         services.AddSingleton<StudentListPage>();
         services.AddSingleton<AddStudentPage>();
         services.AddSingleton<LandingPage>();
+        services.AddSingleton<EditStudentPage>();
 
         return services.BuildServiceProvider();
     }

@@ -13,12 +13,20 @@
             <Label Text="{Binding Phone}" WidthRequest="150" VerticalOptions="Center"/>
             <Label Text="{Binding Email}" WidthRequest="240" VerticalOptions="Center"/>
             <HorizontalStackLayout Spacing="25" WidthRequest="170" VerticalOptions="Center">
-                <Button Text="Edit" WidthRequest="70" HeightRequest="40" VerticalOptions="Center"/>
+                <Button
+                    Text="Edit"
+                    WidthRequest="70"
+                    HeightRequest="40"
+                    VerticalOptions="Center"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:StudentListViewModel}},Path=GoToEditStudentCommand}"
+                    CommandParameter="{Binding .}"/>
                 <Button
                     Text="Delete"
                     WidthRequest="70"
                     HeightRequest="40"
-                    VerticalOptions="Center"></Button>
+                    VerticalOptions="Center"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:StudentListViewModel}},Path=DeleteStudentCommand}"
+                    CommandParameter="{Binding .}"/>
             </HorizontalStackLayout>
         </HorizontalStackLayout>
     </Frame>
