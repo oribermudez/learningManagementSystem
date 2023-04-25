@@ -83,12 +83,6 @@ namespace LearningManagementSystem.ViewModels
         public ObservableCollection<string> Errors { get; set; } = new();
 
         [RelayCommand]
-        async Task GoToList()
-        {
-            await Shell.Current.GoToAsync("StudentListPage");
-        }
-
-        [RelayCommand]
         public void AddStudent()
         {
             ValidateAllProperties();

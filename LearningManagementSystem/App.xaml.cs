@@ -21,10 +21,12 @@ public partial class App : Application
         // Viewmodels
         services.AddTransient<StudentListViewModel>();
         services.AddTransient<StudentViewModel>();
+        services.AddTransient<LandingViewModel>();
 
         // Views
         services.AddSingleton<StudentListPage>();
         services.AddSingleton<AddStudentPage>();
+        services.AddSingleton<LandingPage>();
 
         return services.BuildServiceProvider();
     }

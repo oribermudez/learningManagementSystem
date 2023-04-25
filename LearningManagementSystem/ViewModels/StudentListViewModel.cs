@@ -24,12 +24,6 @@ namespace LearningManagementSystem.ViewModels
         }
 
         [RelayCommand]
-        async Task GoTo()
-        {
-            await Shell.Current.GoToAsync("AddStudentPage");
-        }
-
-        [RelayCommand]
         public void DeleteStudent(Student student)
         {
             DBConnect dBConnect = new();

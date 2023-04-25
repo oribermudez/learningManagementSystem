@@ -13,7 +13,7 @@
         <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
               ColumnDefinitions="120, 300, 100"
               Padding="2"
-              RowSpacing="2"
+              RowSpacing="20"
               ColumnSpacing="2"
               HorizontalOptions="Center">
             <Label x:Name="IdLabel"

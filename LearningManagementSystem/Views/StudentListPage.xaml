@@ -5,11 +5,10 @@
              xmlns:model="clr-namespace:LearningManagementSystem.Models"
              xmlns:template="clr-namespace:LearningManagementSystem.Views.Templates"
              x:Class="LearningManagementSystem.Views.StudentListPage"
-             Title="View Students">
+             Title="Students List">
     <VerticalStackLayout x:DataType="viewmodel:StudentListViewModel" HorizontalOptions="Center">
-        <HorizontalStackLayout  HorizontalOptions="Center" Margin="100" Spacing="70">
-            <Button Text="List Students" Command="{Binding DisplayStudentsCommand}" VerticalOptions="Center" />
-            <Button Text="Add Student" Command="{Binding GoToCommand}" VerticalOptions="Center"/>
+        <HorizontalStackLayout  HorizontalOptions="End" Margin="20,60">
+            <Button Text="Update Student List" Command="{Binding DisplayStudentsCommand}" VerticalOptions="End" />
         </HorizontalStackLayout>
         <HorizontalStackLayout HorizontalOptions="Center" HeightRequest="40">
             <Label Text="Id" WidthRequest="50" FontAttributes="Bold" />

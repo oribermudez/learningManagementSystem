@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:LearningManagementSystem.ViewModels"
+             x:Class="LearningManagementSystem.Views.LandingPage"
+             x:DataType="viewmodel:LandingViewModel"
+             Title="Hello, Welcome to Learning 360!">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="40">
+        <Label Text="Anatomy of the app" FontSize="Large"/>
+        <Button Text="Student List" Command="{Binding GoToStudentListCommand}"/>
+        <Button Text="Add Student" Command="{Binding GoToAddStudentCommand}"/>
+        <Button Text="View Courses" />
+        <Button Text="Update Course" />
+    </VerticalStackLayout>
+</ContentPage>

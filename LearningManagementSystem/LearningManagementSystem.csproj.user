@@ -9,6 +9,9 @@
     <MauiXaml Update="Views\AddStudentPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\LandingPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\StudentListPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
