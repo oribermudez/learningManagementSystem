@@ -8,46 +8,64 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearningManagementSystem
-build_property.ProjectDir = C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagementSystem\
+build_property.ProjectDir = C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/App.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/AppShell.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Resources/Styles/Colors.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Resources/Styles/Styles.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Views/AddStudentPage.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/AddCoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.AddCoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCoursePage.xaml
+
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/AddStudentPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.AddStudentPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddStudentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddStudentPage.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Views/StudentListPage.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/CourseListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.CourseListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CourseListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CourseListPage.xaml
+
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/StudentListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.StudentListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\StudentListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\StudentListPage.xaml
 
-[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Views/Templates/ListItem.xaml]
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/Templates/ListItem.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.Templates.ListItem.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Templates\ListItem.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Templates\ListItem.xaml
+
+[C:/Users/josel/OneDrive/Documentos/OOP2 Winter2023/learningManagementSystem/LearningManagementSystem/Views/Templates/NewContent1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.Templates.NewContent1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\NewContent1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\NewContent1.xaml

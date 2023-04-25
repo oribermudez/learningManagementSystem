@@ -735,3 +735,5 @@ C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagement
 C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\oribe\Documents\SAIT\OOP C#\LearningManagementSystem\LearningManagementSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\josel\OneDrive\Documentos\OOP2 Winter2023\learningManagementSystem\LearningManagementSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MySqlConnector.dll

@@ -7,14 +7,14 @@ public partial class App : Application
     public IServiceProvider Services { get; }
 
     public App()
-	{
+    {
         var services = new ServiceCollection();
         Services = ConfigureServices(services);
 
         InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+    }
 
     private static IServiceProvider ConfigureServices(IServiceCollection services)
     {
@@ -22,9 +22,15 @@ public partial class App : Application
         services.AddTransient<StudentListViewModel>();
         services.AddTransient<StudentViewModel>();
 
+        services.AddTransient<CourseListViewModel>();
+        services.AddTransient<CourseViewModel>();
+
         // Views
         services.AddSingleton<StudentListPage>();
         services.AddSingleton<AddStudentPage>();
+
+        services.AddSingleton<CourseListViewModel>();
+        services.AddSingleton<AddCoursePage>();
 
         return services.BuildServiceProvider();
     }

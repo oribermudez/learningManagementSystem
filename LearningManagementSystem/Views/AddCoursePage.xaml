@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:LearningManagementSystem.ViewModels"
+             xmlns:model="clr-namespace:LearningManagementSystem.Models"
+             xmlns:template="clr-namespace:LearningManagementSystem.Views.Templates"
+             x:Class="LearningManagementSystem.Views.AddCoursePage"
+             Title="AddCoursePage">
+    <VerticalStackLayout x:DataType="viewmodel:CourseViewModel" Margin="40">
+        <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
+              ColumnDefinitions="120, 300, 300"
+              Padding="2"
+              RowSpacing="2"
+              ColumnSpacing="2">
+
+
+            <!--ID INFORMATION-->
+            <Label x:Name="IdLabel" 
+               Grid.Row="0"
+               Grid.Column="0"
+               Text="Course ID: "
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Center"/>
+
+
+            <Entry x:Name="IdEntry"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="CourseId"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Id}"/>
+
+
+            <!--COURSE NAME INFORMATION-->
+            <Label x:Name="CourseNameLabel"
+              Grid.Row="1"
+              Grid.Column="0"
+              Text="Course Name: "
+              HorizontalTextAlignment="End"
+              VerticalTextAlignment="Center" />
+
+
+            <Entry x:Name="CourseNameEntry"
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="CourseName"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Name}"/>
+
+
+
+            <!--INSTRUCTOR INFORMATION-->
+            <Label x:Name="InstructorNameLabel"
+             Grid.Row="2"
+             Grid.Column="0"
+             Text="Instructor: "
+             HorizontalTextAlignment="End"
+             VerticalTextAlignment="Center" />
+
+            <Entry x:Name="InstructorEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Instructor"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding Instructor}"/>
+
+
+            <!--START DATE INFORMATION-->
+            <Label x:Name="StartDateNameLabel"
+             Grid.Row="2"
+             Grid.Column="0"
+             Text="Start Date: "
+             HorizontalTextAlignment="End"
+             VerticalTextAlignment="Center" />
+
+            <Entry x:Name="StartDateEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="StartDate"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding StartDate}"/>
+
+
+
+            <!--END DATE INFORMATION-->
+            <Label x:Name="EndDateLabel"
+             Grid.Row="2"
+             Grid.Column="0"
+             Text="End Date: "
+             HorizontalTextAlignment="End"
+             VerticalTextAlignment="Center" />
+
+            <Entry x:Name="EndDateEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="EndDate"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding EndDate}"/>
+
+            <Button x:Name="SubmitButton"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Text="Submit"
+                    WidthRequest="250"
+                    Command="{Binding UpdateCourseCommand}"/>
+        </Grid>
+
+
+
+        <CollectionView ItemsSource="{Binding Errors}" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding .}"></Label>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>
+    
+    
+    

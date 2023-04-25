@@ -24,7 +24,7 @@ namespace LearningManagementSystem.Database
             server = "localhost";
             database = "studentmanagementsystem";
             uid = "root";
-            password = "1234";
+            password = "password";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -100,9 +100,9 @@ namespace LearningManagementSystem.Database
         /// <summary>
         /// WORK IN PROGRESS - Updates data in the courses table in the database.
         /// </summary>
-        public void UpdateCourse(int courseId, string courseName, string instructor, DateTime startDate, DateTime endDate)
+        public void UpdateCourse(Course course)
         {
-            string query = $"UPDATE courses SET courseName='{courseName}', instructor='{instructor}', startDate='{startDate}', endDate='{endDate}' WHERE courseId='{courseId}'";
+            string query = $"UPDATE courses SET courseName='{course.Name}', instructor='{course.Instructor}', startDate='{course.StartDate}', endDate='{course.EndDate}' WHERE courseId='{course.Id}'";
 
             //Open connection
             if (OpenConnection() == true)
@@ -122,12 +122,29 @@ namespace LearningManagementSystem.Database
             }
         }
 
+
         /// <summary>
         /// NOT YET IMPLEMENTED - Delete values from the database
         /// </summary>
         public void Delete(int id)
         {
             string query = $"DELETE FROM students WHERE id={id}";
+
+            if (OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                CloseConnection();
+            }
+        }
+
+        /// <summary>
+        /// Delete courses from the database
+        /// </summary>
+        /// <param name="id"></param>
+        public void DeleteCourse(int id)
+        {
+            string query = $"DELETE FROM courses WHERE id={id}";
 
             if (OpenConnection() == true)
             {
@@ -168,6 +185,53 @@ namespace LearningManagementSystem.Database
                     student.Email = (string)dataReader["email"];
 
                     list.Add(student);
+                }
+
+                //close Data Reader
+                dataReader.Close();
+
+                //close Connection
+                CloseConnection();
+
+                //return list to be displayed
+                return list;
+            }
+            else
+            {
+                return list;
+            }
+        }
+
+
+
+
+        public List<Course> getCourses()
+        {
+            string query = "SELECT * FROM courses";
+
+            //Create a list to store the result
+            List<Course> list = new List<Course>();
+
+            //Open connection
+            if (OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                //Create a data reader and Execute the command
+                MySqlDataReader dataReader = cmd.ExecuteReader();
+
+                //Read the data and store them in the list
+                while (dataReader.Read())
+                {
+                    Course course = new Course();
+                    course.Id = (int)dataReader["courseId"];
+                    course.Name = (string)dataReader["name"];
+                    course.Instructor = (string)dataReader["instructor"];
+                    course.StartDate = (DateTime)dataReader["startDate"];
+                    course.EndDate = (DateTime)dataReader["endDate"];
+
+                    list.Add(course);
                 }
 
                 //close Data Reader
