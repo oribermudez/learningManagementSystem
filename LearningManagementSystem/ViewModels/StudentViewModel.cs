@@ -20,16 +20,6 @@ namespace LearningManagementSystem.ViewModels
         [ObservableProperty]
         private string result;
 
-        private int id;
-
-        [Required(ErrorMessage = "The id is required.")]
-        public int Id
-        {
-            get => id;
-
-            set => SetProperty(ref id, value, true);
-        }
-
         private string firstName;
 
         [Required(ErrorMessage = "The first name is required.")]
@@ -88,7 +78,6 @@ namespace LearningManagementSystem.ViewModels
             ValidateAllProperties();
 
             Errors.Clear();
-            GetErrors(nameof(Id)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
             GetErrors(nameof(FirstName)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
             GetErrors(nameof(LastName)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
             GetErrors(nameof(Program)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
@@ -97,7 +86,7 @@ namespace LearningManagementSystem.ViewModels
             if (Errors.Count > 0) return;
 
 
-            Student newStudent = new Student(Id, FirstName, LastName, Program, Phone, Email);
+            Student newStudent = new Student(FirstName, LastName, Program, Phone, Email);
 
             DBConnect dBConnect = new();
 
@@ -111,8 +100,7 @@ namespace LearningManagementSystem.ViewModels
             }
             finally
             {
-                Result = $" The student {Id} was successfully added.";
-                Id= 0 ;
+                Result = $" The student was successfully added.";
                 FirstName = string.Empty ;
                 LastName = string.Empty ;
                 Program = string.Empty ;

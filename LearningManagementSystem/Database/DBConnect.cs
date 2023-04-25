@@ -81,7 +81,7 @@ namespace LearningManagementSystem.Database
         /// <param name="newStudent">Student object</param>
         public void InsertNewStudent(Student newStudent)
         {
-            string query = $"INSERT INTO students VALUES ({newStudent.Id}, '{newStudent.FirstName}', '{newStudent.LastName}', '{newStudent.Program}', '{newStudent.Phone}', '{newStudent.Email}')";
+            string query = $"INSERT INTO students (firstName, lastName, program, phone, email) VALUES ('{newStudent.FirstName}', '{newStudent.LastName}', '{newStudent.Program}', '{newStudent.Phone}', '{newStudent.Email}')";
 
             //open connection
             if (OpenConnection() == true)
@@ -124,7 +124,7 @@ namespace LearningManagementSystem.Database
 
         public void UpdateStudent(int studentId, string firstName, string lastName, string program, float phone, string email)
         {
-            string query = $"UPDATE courses SET firstName='{firstName}', lastName='{lastName}', program='{program}', phone='{phone}', email='{email}' WHERE courseId='{studentId}'";
+            string query = $"UPDATE students SET firstName='{firstName}', lastName='{lastName}', program='{program}', phone='{phone}', email='{email}' WHERE studentId='{studentId}'";
 
             //Open connection
             if (OpenConnection() == true)

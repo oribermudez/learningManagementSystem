@@ -55,13 +55,13 @@ namespace LearningManagementSystem.ViewModels
         }
 
         [RelayCommand]
-        public void UpdateStudent(Student student)
+        public void UpdateStudent()
         {
             DBConnect dBConnect = new();
 
             try
             {
-                dBConnect.UpdateStudent(student.Id, student.FirstName, student.LastName, student.Program, student.Phone, student.Email);
+                dBConnect.UpdateStudent(SelectedStudent.Id, SelectedStudent.FirstName, SelectedStudent.LastName, SelectedStudent.Program, SelectedStudent.Phone, SelectedStudent.Email);
                 DisplayStudents();
             }
             catch
@@ -70,16 +70,15 @@ namespace LearningManagementSystem.ViewModels
             }
             finally
             {
-                Updated = $"The student {student.Id} was successfully updated.";
+                Updated = $"The student was successfully updated.";
             }
         }
 
         [RelayCommand]
         async Task GoToEditStudent(Student student)
         {
-            SelectedStudent = student;
 
-            await Shell.Current.GoToAsync("EditStudentPage");
+            await Shell.Current.Navigation.PushAsync(new EditStudentPage(student));
         }
     }
 }

@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.Models
 {
-    public abstract class BaseModel
+    public partial class BaseModel : ObservableObject
     {
-        public int Id { get; set; }
+        private int id = 0;
+
+        public int Id
+        {
+            get => id;
+            set => id = value;
+
+        }
     }
 }
