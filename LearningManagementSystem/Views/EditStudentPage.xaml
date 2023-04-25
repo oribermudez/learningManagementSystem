@@ -7,7 +7,7 @@
              Title="Edit Student">
     <VerticalStackLayout x:DataType="viewmodel:StudentListViewModel" Margin="40">
         <VerticalStackLayout MaximumWidthRequest="600" Margin="20" >
-            <Label Text="{Binding Updated}" TextColor="#512BD4" FontSize="Subtitle" Padding="100,20,20,20"/>
+            <Label Text="{Binding Updated}" TextColor="#512BD4" FontSize="Subtitle" Padding="120,20,20,20"/>
         </VerticalStackLayout>
         <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
               ColumnDefinitions="120, 300, 100"
@@ -15,31 +15,15 @@
               RowSpacing="20"
               ColumnSpacing="2"
               HorizontalOptions="Center">
-            <Label x:Name="IdLabel"
-                   Grid.Row="0"
-                   Grid.Column="0"
-                   Text="Student ID: "
-                   HorizontalTextAlignment="End"
-                   VerticalTextAlignment="Center" />
 
-            <Entry x:Name="IdEntry"
-                   Grid.Row="0"
-                   Grid.Column="1"
-                   WidthRequest="250"
-                   Placeholder="StudentId"
-                   TextColor="Black"
-                   BackgroundColor="White"
-                   IsEnabled="False"
-                   Text="{Binding SelectedStudent.Id, Mode=TwoWay}"/>
-            
-            <Label x:Name="FirstLabel"
+            <Label x:Name="FirstNameLabel"
                    Grid.Row="1"
                    Grid.Column="0"
                    Text="First Name: "
                    HorizontalTextAlignment="End"
                    VerticalTextAlignment="Center" />
 
-            <Entry x:Name="FirstEntry"
+            <Entry x:Name="FirstNameEntry"
                    Grid.Row="1"
                    Grid.Column="1"
                    WidthRequest="250"
@@ -47,6 +31,70 @@
                    BackgroundColor="White"
                    TextColor="Black"
                    Text="{Binding SelectedStudent.FirstName, Mode=TwoWay}"/>
+
+            <Label x:Name="LastNameLabel"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Last Name: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="LastNameEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="LastName"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding SelectedStudent.LastName, Mode=TwoWay}"/>
+
+            <Label x:Name="ProgramLabel"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Text="Program: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="ProgramEntry"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Program"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding SelectedStudent.Program, Mode=TwoWay}"/>
+
+            <Label x:Name="PhoneLabel"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Text="Phone: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="PhoneEntry"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Phone"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding SelectedStudent.Phone, Mode=TwoWay}"/>
+
+            <Label x:Name="EmailLabel"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Text="Email: "
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="Center" />
+
+            <Entry x:Name="EmailEntry"
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   WidthRequest="250"
+                   Placeholder="Email"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Text="{Binding SelectedStudent.Email, Mode=TwoWay}"/>
 
             <Button x:Name="SubmitButton"
                     Grid.Row="6"

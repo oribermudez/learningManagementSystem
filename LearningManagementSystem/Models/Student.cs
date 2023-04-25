@@ -14,9 +14,8 @@ namespace LearningManagementSystem.Models
         public float Phone { get; set; }
         public string Email { get; set; }
 
-        public Student(int id, string firstName, string lastName, string program, float phone, string email)
+        public Student(string firstName, string lastName, string program, float phone, string email)
         {
-            Id = id;
             FirstName = firstName;
             LastName = lastName;
             Program = program;

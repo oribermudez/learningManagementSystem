@@ -7,7 +7,7 @@
              Title="Add Student">
     <VerticalStackLayout x:DataType="viewmodel:StudentViewModel" Margin="40">
         <VerticalStackLayout MaximumWidthRequest="600" Margin="20" >
-            <Label Text="{Binding Result}" TextColor="#512BD4" FontSize="Subtitle" Padding="100,20,20,20"/>
+            <Label Text="{Binding Result}" TextColor="#512BD4" FontSize="Subtitle" Padding="120,20,20,20"/>
         </VerticalStackLayout>
         <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
               ColumnDefinitions="120, 300, 100"
@@ -15,22 +15,7 @@
               RowSpacing="20"
               ColumnSpacing="2"
               HorizontalOptions="Center">
-            <Label x:Name="IdLabel"
-                   Grid.Row="0"
-                   Grid.Column="0"
-                   Text="Student ID: "
-                   HorizontalTextAlignment="End"
-                   VerticalTextAlignment="Center" />
-
-            <Entry x:Name="IdEntry"
-                   Grid.Row="0"
-                   Grid.Column="1"
-                   WidthRequest="250"
-                   Placeholder="StudentId"
-                   BackgroundColor="White"
-                   TextColor="Black"
-                   Text="{Binding Id, Mode=TwoWay}"/>
-
+            
             <Label x:Name="FirstNameLabel"
                    Grid.Row="1"
                    Grid.Column="0"
