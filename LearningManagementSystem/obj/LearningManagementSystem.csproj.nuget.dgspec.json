@@ -11,7 +11,7 @@
         "projectName": "LearningManagementSystem",
         "projectPath": "C:\\Users\\oribe\\Documents\\SAIT\\OOP C#\\LearningManagementSystem\\LearningManagementSystem\\LearningManagementSystem.csproj",
         "packagesPath": "C:\\Users\\oribe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oribe\\Documents\\SAIT\\OOP C#\\learningManagementSystem\\LearningManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\oribe\\Documents\\SAIT\\OOP C#\\LearningManagementSystem\\LearningManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
