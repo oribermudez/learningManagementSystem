@@ -122,12 +122,34 @@ namespace LearningManagementSystem.Database
             }
         }
 
+        public void UpdateStudent(int studentId, string firstName, string lastName, string program, float phone, string email)
+        {
+            string query = $"UPDATE courses SET firstName='{firstName}', lastName='{lastName}', program='{program}', phone='{phone}', email='{email}' WHERE courseId='{studentId}'";
+
+            //Open connection
+            if (OpenConnection() == true)
+            {
+                //create mysql command
+                MySqlCommand cmd = new MySqlCommand();
+                //Assign the query using CommandText
+                cmd.CommandText = query;
+                //Assign the connection using Connection
+                cmd.Connection = connection;
+
+                //Execute query
+                cmd.ExecuteNonQuery();
+
+                //close connection
+                CloseConnection();
+            }
+        }
+
         /// <summary>
         /// NOT YET IMPLEMENTED - Delete values from the database
         /// </summary>
-        public void Delete(int id)
+        public void DeleteStudent(int id)
         {
-            string query = $"DELETE FROM students WHERE id={id}";
+            string query = $"DELETE FROM students WHERE studentId='{id}'";
 
             if (OpenConnection() == true)
             {
@@ -140,7 +162,7 @@ namespace LearningManagementSystem.Database
         /// <summary>
         /// NOT YET IMPLEMENTED - Display information from the database
         /// </summary>
-        public List<Student> getStudents()
+        public List<Student> GetStudents()
         {
             string query = "SELECT * FROM students";
 

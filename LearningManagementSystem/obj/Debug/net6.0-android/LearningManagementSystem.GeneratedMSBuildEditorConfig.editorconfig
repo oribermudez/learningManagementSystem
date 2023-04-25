@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.V
 build_metadata.AdditionalFiles.TargetPath = Views\AddStudentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddStudentPage.xaml
 
+[C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Views/EditStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.EditStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditStudentPage.xaml
+
 [C:/Users/oribe/Documents/SAIT/OOP C\#/LearningManagementSystem/LearningManagementSystem/Views/LandingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LearningManagementSystem.Views.LandingPage.xaml
