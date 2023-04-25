@@ -1,3 +1,5 @@
+using System.Windows.Input;
+
 namespace LearningManagementSystem.Views;
 
 public partial class StudentListPage : ContentPage
@@ -6,5 +8,13 @@ public partial class StudentListPage : ContentPage
 	{
         BindingContext = App.Current.Services.GetRequiredService<StudentListViewModel>();
         InitializeComponent();
-	}
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        var viewModel = (StudentListViewModel)this.BindingContext;
+        viewModel.DisplayStudentsCommand.Execute(null);
+    }
 }
