@@ -14,7 +14,7 @@ namespace LearningManagementSystem.ViewModels
         ObservableCollection<Student> students = new();
 
         [RelayCommand]
-        public async Task DisplayStudents()
+        public void DisplayStudents()
         {
             Students.Clear();
             DBConnect dBConnect = new();
@@ -30,11 +30,11 @@ namespace LearningManagementSystem.ViewModels
         }
 
         [RelayCommand]
-        public async Task DeleteStudent(Student student)
+        public void DeleteStudent(Student student)
         {
             DBConnect dBConnect = new();
             dBConnect.Delete(student.Id);
-            await DisplayStudents();
+            DisplayStudents();
         }
     }
 }

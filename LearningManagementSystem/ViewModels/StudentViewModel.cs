@@ -5,10 +5,13 @@ using LearningManagementSystem.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LearningManagementSystem.Exceptions;
 
 namespace LearningManagementSystem.ViewModels
 {
@@ -80,26 +83,48 @@ namespace LearningManagementSystem.ViewModels
         public ObservableCollection<string> Errors { get; set; } = new();
 
         [RelayCommand]
-        public async Task AddStudent()
+        async Task GoToList()
+        {
+            await Shell.Current.GoToAsync("StudentListPage");
+        }
+
+        [RelayCommand]
+        public void AddStudent()
         {
             ValidateAllProperties();
 
             Errors.Clear();
-            GetErrors(nameof(Id)).ToList().ForEach(f => Errors.Add("Id:" + f.ErrorMessage));
-            GetErrors(nameof(FirstName)).ToList().ForEach(f => Errors.Add("First Name:" + f.ErrorMessage));
-            GetErrors(nameof(LastName)).ToList().ForEach(f => Errors.Add("Last Name:" + f.ErrorMessage));
-            GetErrors(nameof(Program)).ToList().ForEach(f => Errors.Add("Program:" + f.ErrorMessage));
-            GetErrors(nameof(Phone)).ToList().ForEach(f => Errors.Add("Phone:" + f.ErrorMessage));
-            GetErrors(nameof(Email)).ToList().ForEach(f => Errors.Add("Email:" + f.ErrorMessage));
+            GetErrors(nameof(Id)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
+            GetErrors(nameof(FirstName)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
+            GetErrors(nameof(LastName)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
+            GetErrors(nameof(Program)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
+            GetErrors(nameof(Phone)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
+            GetErrors(nameof(Email)).ToList().ForEach(f => Errors.Add(f.ErrorMessage));
             if (Errors.Count > 0) return;
 
 
             Student newStudent = new Student(Id, FirstName, LastName, Program, Phone, Email);
 
             DBConnect dBConnect = new();
-            dBConnect.InsertNewStudent(newStudent);
 
-            Result = $" The student {Id} was successfully added.";
+            try
+            {
+                dBConnect.InsertNewStudent(newStudent);
+            }
+            catch
+            {
+                throw new CannotAddStudentException();
+            }
+            finally
+            {
+                Result = $" The student {Id} was successfully added.";
+                Id= 0 ;
+                FirstName = string.Empty ;
+                LastName = string.Empty ;
+                Program = string.Empty ;
+                Phone = 0;
+                Email = string.Empty;
+            }
         }
     }
 }
