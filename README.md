@@ -54,8 +54,8 @@ Overall, this project represents a significant milestone in our journey as devel
 
 We used the following technologies:
 
-* [![.NET MAUI]][Maui-url]
-* [![MariaDB]][Maria-url]
+* [.NET MAUI][Maui-url]
+* [MariaDB][Maria-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
