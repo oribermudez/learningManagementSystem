@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.Models
 {
+    /// <summary>
+    /// Student model
+    /// </summary>
+    /// <remarks> Authors: Matthew Yackel, Ana Alarcon, Oriana Bermudez </remarks>
+    /// <remarks> Date: Apr 25, 2023 </remarks>
     public partial class Student : BaseModel
     {
         public string FirstName { get; set; }

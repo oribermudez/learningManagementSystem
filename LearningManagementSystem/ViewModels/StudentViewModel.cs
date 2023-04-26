@@ -15,6 +15,11 @@ using LearningManagementSystem.Exceptions;
 
 namespace LearningManagementSystem.ViewModels
 {
+    /// <summary>
+    /// Manages Add Student Page
+    /// </summary>
+    /// <remarks> Authors: Matthew Yackel, Ana Alarcon, Oriana Bermudez </remarks>
+    /// <remarks> Date: Apr 25, 2023 </remarks>
     public partial class StudentViewModel : ObservableValidator
     {
         [ObservableProperty]

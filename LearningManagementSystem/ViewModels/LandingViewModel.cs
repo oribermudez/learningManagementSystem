@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.ViewModels
 {
+    /// <summary>
+    /// Manages Landing Page
+    /// </summary>
+    /// <remarks> Authors: Matthew Yackel, Ana Alarcon, Oriana Bermudez </remarks>
+    /// <remarks> Date: Apr 25, 2023 </remarks>
     public partial class LandingViewModel : ObservableObject
     {
         /// <summary>
