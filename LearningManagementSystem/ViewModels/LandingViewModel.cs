@@ -8,18 +8,31 @@ namespace LearningManagementSystem.ViewModels
 {
     public partial class LandingViewModel : ObservableObject
     {
+        /// <summary>
+        /// Navigates to StudentListPage within the application
+        /// </summary>
+        /// <returns></returns>
         [RelayCommand]
         static async Task GoToStudentList()
         {
             await Shell.Current.GoToAsync("StudentListPage");
         }
 
+        /// <summary>
+        /// Navigates to AddStudentPage within the application
+        /// </summary>
+        /// <returns></returns>
         [RelayCommand]
         static async Task GoToAddStudent()
         {
             await Shell.Current.GoToAsync("AddStudentPage");
         }
 
+
+        /// <summary>
+        /// Navigates to CourseListPage within the application
+        /// </summary>
+        /// <returns></returns>
         [RelayCommand]
         static async Task GoToCourseList()
         {

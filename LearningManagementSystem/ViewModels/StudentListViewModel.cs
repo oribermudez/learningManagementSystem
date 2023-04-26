@@ -14,12 +14,10 @@ namespace LearningManagementSystem.ViewModels
         [ObservableProperty]
         ObservableCollection<Student> students = new();
 
-        [ObservableProperty]
-        private Student selectedStudent;
-
-        [ObservableProperty]
-        private string updated;
-
+        /// <summary>
+        /// Retrieves the students from the database 
+        /// </summary>
+        /// <exception cref="CannotPopulateListException"></exception>
         [RelayCommand]
         public void DisplayStudents()
         {
@@ -38,6 +36,11 @@ namespace LearningManagementSystem.ViewModels
 
         }
 
+        /// <summary>
+        /// Deletes a student from the database
+        /// </summary>
+        /// <param name="student"></param>
+        /// <exception cref="CannotDeleteStudentException"></exception>
         [RelayCommand]
         public void DeleteStudent(Student student)
         {
@@ -54,26 +57,11 @@ namespace LearningManagementSystem.ViewModels
             }
         }
 
-        [RelayCommand]
-        public void UpdateStudent()
-        {
-            DBConnect dBConnect = new();
-
-            try
-            {
-                dBConnect.UpdateStudent(SelectedStudent.Id, SelectedStudent.FirstName, SelectedStudent.LastName, SelectedStudent.Program, SelectedStudent.Phone, SelectedStudent.Email);
-                DisplayStudents();
-            }
-            catch
-            {
-                throw new CannotDeleteStudentException();
-            }
-            finally
-            {
-                Updated = $"The student was successfully updated.";
-            }
-        }
-
+        /// <summary>
+        /// Navigates to EditStudentPage
+        /// </summary>
+        /// <param name="student"></param>
+        /// <returns></returns>
         [RelayCommand]
         async Task GoToEditStudent(Student student)
         {

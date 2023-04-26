@@ -7,7 +7,7 @@
              Title="Add Student">
     <VerticalStackLayout x:DataType="viewmodel:StudentViewModel" Margin="40">
         <VerticalStackLayout MaximumWidthRequest="600" Margin="20" >
-            <Label Text="{Binding Result}" TextColor="#512BD4" FontSize="Subtitle" Padding="120,20,20,20"/>
+            <Label Text="{Binding Result}" TextColor="DeepSkyBlue" FontSize="Subtitle" Padding="120,20,20,20"/>
         </VerticalStackLayout>
         <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
               ColumnDefinitions="120, 300, 100"
@@ -107,7 +107,7 @@
         <CollectionView ItemsSource="{Binding Errors}" HorizontalOptions="Center">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Label Text="{Binding .}" TextColor="#512BD4"/>
+                    <Label Text="{Binding .}" TextColor="DeepSkyBlue"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

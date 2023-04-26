@@ -12,6 +12,10 @@ namespace LearningManagementSystem.ViewModels
         [ObservableProperty]
         ObservableCollection<Course> courses = new();
 
+        /// <summary>
+        /// Retrieves the courses from the database.
+        /// </summary>
+        /// <exception cref="CannotPopulateListException"></exception>
         [RelayCommand]
         public void DisplayCourses()
         {

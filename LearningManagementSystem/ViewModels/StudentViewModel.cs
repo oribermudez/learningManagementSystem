@@ -21,7 +21,6 @@ namespace LearningManagementSystem.ViewModels
         private string result;
 
         private string firstName;
-
         [Required(ErrorMessage = "The first name is required.")]
         public string FirstName
         {
@@ -31,7 +30,6 @@ namespace LearningManagementSystem.ViewModels
         }
 
         private string lastName;
-
         [Required(ErrorMessage = "The last name is required.")]
         public string LastName
         {
@@ -41,7 +39,6 @@ namespace LearningManagementSystem.ViewModels
         }
 
         private string program;
-
         [Required(ErrorMessage = "The program is required.")]
         public string Program
         {
@@ -50,10 +47,9 @@ namespace LearningManagementSystem.ViewModels
             set => SetProperty(ref program, value, true);
         }
 
-        private float phone;
-
+        private string phone;
         [Required(ErrorMessage = "The phone is required.")]
-        public float Phone
+        public string Phone
         {
             get => phone;
 
@@ -72,6 +68,10 @@ namespace LearningManagementSystem.ViewModels
 
         public ObservableCollection<string> Errors { get; set; } = new();
 
+        /// <summary>
+        /// Adds a student to the database
+        /// </summary>
+        /// <exception cref="CannotAddStudentException"></exception>
         [RelayCommand]
         public void AddStudent()
         {
@@ -104,7 +104,7 @@ namespace LearningManagementSystem.ViewModels
                 FirstName = string.Empty ;
                 LastName = string.Empty ;
                 Program = string.Empty ;
-                Phone = 0;
+                Phone = string.Empty;
                 Email = string.Empty;
             }
         }

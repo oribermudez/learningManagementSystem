@@ -98,31 +98,15 @@ namespace LearningManagementSystem.Database
         }
 
         /// <summary>
-        /// WORK IN PROGRESS - Updates data in the courses table in the database.
+        /// Update student record
         /// </summary>
-        public void UpdateCourse(int courseId, string courseName, string instructor, DateTime startDate, DateTime endDate)
-        {
-            string query = $"UPDATE courses SET courseName='{courseName}', instructor='{instructor}', startDate='{startDate}', endDate='{endDate}' WHERE courseId='{courseId}'";
-
-            //Open connection
-            if (OpenConnection() == true)
-            {
-                //create mysql command
-                MySqlCommand cmd = new MySqlCommand();
-                //Assign the query using CommandText
-                cmd.CommandText = query;
-                //Assign the connection using Connection
-                cmd.Connection = connection;
-
-                //Execute query
-                cmd.ExecuteNonQuery();
-
-                //close connection
-                CloseConnection();
-            }
-        }
-
-        public void UpdateStudent(int studentId, string firstName, string lastName, string program, float phone, string email)
+        /// <param name="studentId"></param>
+        /// <param name="firstName"></param>
+        /// <param name="lastName"></param>
+        /// <param name="program"></param>
+        /// <param name="phone"></param>
+        /// <param name="email"></param>
+        public void UpdateStudent(int studentId, string firstName, string lastName, string program, string phone, string email)
         {
             string query = $"UPDATE students SET firstName='{firstName}', lastName='{lastName}', program='{program}', phone='{phone}', email='{email}' WHERE studentId='{studentId}'";
 
@@ -145,8 +129,9 @@ namespace LearningManagementSystem.Database
         }
 
         /// <summary>
-        /// NOT YET IMPLEMENTED - Delete values from the database
+        /// Deletes a student record
         /// </summary>
+        /// <param name="id"></param>
         public void DeleteStudent(int id)
         {
             string query = $"DELETE FROM students WHERE studentId='{id}'";
@@ -160,8 +145,9 @@ namespace LearningManagementSystem.Database
         }
 
         /// <summary>
-        /// NOT YET IMPLEMENTED - Display information from the database
+        /// Gets all the students of the database
         /// </summary>
+        /// <returns></returns>
         public List<Student> GetStudents()
         {
             string query = "SELECT * FROM students";
@@ -186,7 +172,7 @@ namespace LearningManagementSystem.Database
                     student.FirstName = (string)dataReader["firstName"];
                     student.LastName = (string)dataReader["lastName"];
                     student.Program = (string)dataReader["program"];
-                    student.Phone = (float)dataReader["phone"];
+                    student.Phone = (string)dataReader["phone"];
                     student.Email = (string)dataReader["email"];
 
                     list.Add(student);
@@ -207,6 +193,10 @@ namespace LearningManagementSystem.Database
             }
         }
 
+        /// <summary>
+        /// Gets all the courses of the database
+        /// </summary>
+        /// <returns></returns>
         public List<Course> GetCourses()
         {
             string query = "SELECT * FROM courses";

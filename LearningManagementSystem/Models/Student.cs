@@ -11,10 +11,10 @@ namespace LearningManagementSystem.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Program { get; set; }
-        public float Phone { get; set; }
+        public string Phone { get; set; }
         public string Email { get; set; }
 
-        public Student(string firstName, string lastName, string program, float phone, string email)
+        public Student(string firstName, string lastName, string program, string phone, string email)
         {
             FirstName = firstName;
             LastName = lastName;

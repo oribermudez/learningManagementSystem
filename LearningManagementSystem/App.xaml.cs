@@ -21,6 +21,7 @@ public partial class App : Application
         // Viewmodels
         services.AddTransient<StudentListViewModel>();
         services.AddTransient<StudentViewModel>();
+        services.AddTransient<EditStudentViewModel>();
         services.AddTransient<LandingViewModel>();
         services.AddTransient<CourseListViewModel>();
 
@@ -28,8 +29,9 @@ public partial class App : Application
         // Views
         services.AddSingleton<StudentListPage>();
         services.AddSingleton<AddStudentPage>();
-        services.AddSingleton<LandingPage>();
         services.AddSingleton<EditStudentPage>();
+        services.AddSingleton<LandingPage>();
+        services.AddSingleton<CourseListPage>();
 
         return services.BuildServiceProvider();
     }

@@ -5,9 +5,9 @@
              xmlns:model="clr-namespace:LearningManagementSystem.Models"
              x:Class="LearningManagementSystem.Views.EditStudentPage"
              Title="Edit Student">
-    <VerticalStackLayout x:DataType="viewmodel:StudentListViewModel" Margin="40">
+    <VerticalStackLayout x:DataType="viewmodel:EditStudentViewModel" Margin="40">
         <VerticalStackLayout MaximumWidthRequest="600" Margin="20" >
-            <Label Text="{Binding Updated}" TextColor="#512BD4" FontSize="Subtitle" Padding="120,20,20,20"/>
+            <Label Text="{Binding Updated}" TextColor="DeepSkyBlue" FontSize="Subtitle" Padding="120,20,20,20"/>
         </VerticalStackLayout>
         <Grid RowDefinitions="40, 40, 40, 40, 40, 40, Auto"
               ColumnDefinitions="120, 300, 100"

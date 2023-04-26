@@ -6,8 +6,8 @@ public partial class EditStudentPage : ContentPage
 {
 	public EditStudentPage(Student student)
 	{
-        BindingContext = App.Current.Services.GetRequiredService<StudentListViewModel>();
-        var viewModel = (StudentListViewModel)this.BindingContext;
+        BindingContext = App.Current.Services.GetRequiredService<EditStudentViewModel>();
+        var viewModel = (EditStudentViewModel)this.BindingContext;
         viewModel.SelectedStudent = student;
         InitializeComponent();
     }
