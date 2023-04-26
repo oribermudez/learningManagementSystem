@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.ViewModels
 {
+    /// <summary>
+    /// Manages Course List Page
+    /// </summary>
+    /// <remarks> Authors: Matthew Yackel, Ana Alarcon, Oriana Bermudez </remarks>
+    /// <remarks> Date: Apr 25, 2023 </remarks>
     public partial class CourseListViewModel : ObservableObject
     {
         [ObservableProperty]

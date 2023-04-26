@@ -2,6 +2,11 @@
 
 namespace LearningManagementSystem.Database
 {
+    /// <summary>
+    /// Manages the DB
+    /// </summary>
+    /// <remarks> Authors: Matthew Yackel, Ana Alarcon, Oriana Bermudez </remarks>
+    /// <remarks> Date: Apr 25, 2023 </remarks>
     public partial class DBConnect
     {
         private MySqlConnection connection;
