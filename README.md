@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Learning 360</h3>
+  <h1 align="center">Learning 360</h1>
 
   <p align="center">
     A learning management system to review and update student information. 
@@ -44,8 +44,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project represents the culmination of our learning journey in C# object-oriented programming. We had the opportunity to design and build it from the ground up, leveraging the power and flexibility of the MAUI framework and the elegant MVVM pattern. By seamlessly integrating with a MariaDB database, our project achieves a robust and scalable architecture, capable of handling complex data operations with ease.
 
