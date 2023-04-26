@@ -39,6 +39,7 @@ namespace LearningManagementSystem.ViewModels
             finally
             {
                 Updated = $"The student was successfully updated.";
+                SelectedStudent= null;
             }
         }
     }
