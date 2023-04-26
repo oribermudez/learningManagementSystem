@@ -90,7 +90,8 @@ To get a local copy up and running follow these simple example steps.
   ```sh
    Start Debugging
    ```
-
+## Using the Program
+For more information about how to use the program and an overview of what it can do, check out our <td><a href="https://www.youtube.com/watch?v=EdXDDsjNLxY" target="_blank">short video demo.</a></td>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
